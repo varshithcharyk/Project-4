@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book Enthusiasts Hub</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="author-spotlight.html">Author Spotlight</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!--Recent Reviews Section-->
+        <section id="recent-reviews">
+            <h2>Recent Reviews</h2>
+            <div class="review">
+                <img src="rdpd.jpg" alt="Book 1 Cover">
+                <div class="review-details">
+                    <h3>Rich Dad Poor Dad</h3>
+                    <p>What the Rich Teach Their Kids About Money-That the Poor and Middle Class Do Not!</p>
+                    <a href="review.html">Read More</a>
+                </div>
+            </div>
+
+            <div class="review">
+                <img src="tpom.jpg" alt="Book 2 Cover">
+                <div class="review-details">
+                    <h3>The Psychology Of Money</h3>
+                    <p>TIMELESS LESSONS ON WEALTH,GREED,AND HAPPINESS</p>
+                    <a href="review.html">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Book Recommendations-->
+        <section id="book-recommendations">
+            <h2>Book Recommendations</h2>
+            <ul>
+                <li><a href="review.html">The Total Money Makeover</a></li>
+                <li><a href="review.html">The Millionaire Next Door: The Surprising Secrets of America's Wealthy</a></li>
+                <li><a href="review.html">Financial Management: Theory and Practice</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <main>
+        <section id="contact-form">
+            <h2>Request a Review or Provide Feedback</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <main>
+        <section class="review-details">
+            <img src="zo.jpg" alt="Book Cover">
+            <h2>Zero to One: Notes on Startups, Or How to Build the Future</h2>
+            <p><strong>Author:</strong> Peter Theil and Blake Masters</p>
+            <p><strong>Published:</strong> 2014</p>
+            <p><strong>Genre:</strong> Entrepreneur</p>
+            <p><strong>Rating:</strong> 4.5/5</p>
+            <p><strong>Synopsis:</strong> suggests that businesses should prioritize innovation over globalization. </p>
+
+            <h3>Review</h3>
+            <p>Your detailed review of the book goes here. Discuss plot, characters, writing style, and personal opinions.</p>
+
+            <!--User Comment Section-->
+            <section id="comments">
+                <h3>User Comments</h3>
+                <div id="comment-list">
+                    <p><strong>Jhon Doe:</strong> Great review! I love this book.</p>
+                </div>
+                <form id="comment-form">
+                    <textarea id="comment-input" placeholder="Leave a comment"></textarea>
+                    <button type="button" onclick="addcomment()">Submit</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <main>
+        <section class="author-details">
+            <h2>Bill Gates</h2>
+            <img src="bg.jpg" alt="Author Image">
+            <p>American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world's largest personal-computer software company. </p>
+
+            <h3>Featured Works</h3>
+            <ul>
+                <li><a href="review.html">How to Win Friends and Influence People</a></li>
+                <li><a href="review.html">The 7 Habits of Highly Effective People</a></li>
+                <li><a href="review.html">Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Book Enthusiasts Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
